@@ -1,6 +1,6 @@
-#include "attackBoost.h"
+#include "include/attackBoost.h"
 
-#include "player.h"
+#include "include/player.h"
 // constructors
 AttackBoost::AttackBoost() : Item("", 10, 5) { damageIncrease = 3; }
 AttackBoost::AttackBoost(std::string name) : Item(name, 10, 5) {

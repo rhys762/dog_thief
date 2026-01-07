@@ -1,6 +1,6 @@
-#include "ranger.h"
-#include "player.h"
-#include "enemy.h"
+#include "include/ranger.h"
+#include "include/player.h"
+#include "include/enemy.h"
 
 #include <iostream>
 #include <string>

@@ -1,4 +1,4 @@
-#include "enemy.h"
+#include "include/enemy.h"
 
 #include <time.h>
 
@@ -7,8 +7,8 @@
 #include <iostream>
 #include <random>
 
-#include "character.h"
-#include "entity.h"
+#include "include/character.h"
+#include "include/entity.h"
 
 // Constructor
 

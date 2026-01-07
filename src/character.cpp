@@ -1,8 +1,8 @@
-#include "character.h"
+#include "include/character.h"
 
 #include <SFML/Graphics.hpp>
 
-#include "entity.h"
+#include "include/entity.h"
 
 // Constructor
 Character::Character(std::string spriteLocation, int positionX, int positionY,

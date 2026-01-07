@@ -1,9 +1,9 @@
-#include "mage.h"
+#include "include/mage.h"
 
 #include <iostream>
 #include <string>
 
-#include "player.h"
+#include "include/player.h"
 Mage::Mage()
     : Player(
           (std::

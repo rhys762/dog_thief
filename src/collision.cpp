@@ -1,4 +1,4 @@
-#include "collision.h"
+#include "include/collision.h"
 
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
@@ -7,8 +7,8 @@
 #include <iostream>
 #include <string>
 
-#include "character.h"
-#include "player.h"
+#include "include/character.h"
+#include "include/player.h"
 
 // Constructor that creates all border collisions
 Collision::Collision() {

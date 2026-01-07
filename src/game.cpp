@@ -1,5 +1,5 @@
 
-#include "game.h"
+#include "include/game.h"
 
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
@@ -10,20 +10,20 @@
 #include <sstream>
 #include <string>
 
-#include "animation.h"
-#include "attackBoost.h"
-#include "character.h"
-#include "collision.h"
-#include "enemy.h"
-#include "entity.h"
-#include "fighter.h"
-#include "healthBoost.h"
-#include "healthPotion.h"
-#include "item.h"
-#include "mage.h"
-#include "map.h"
-#include "player.h"
-#include "ranger.h"
+#include "include/animation.h"
+#include "include/attackBoost.h"
+#include "include/character.h"
+#include "include/collision.h"
+#include "include/enemy.h"
+#include "include/entity.h"
+#include "include/fighter.h"
+#include "include/healthBoost.h"
+#include "include/healthPotion.h"
+#include "include/item.h"
+#include "include/mage.h"
+#include "include/map.h"
+#include "include/player.h"
+#include "include/ranger.h"
 Game::Game()
     : window(sf::VideoMode(700, 500), "Dog Thief", sf::Style::Close),
       player1(

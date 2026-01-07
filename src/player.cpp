@@ -1,10 +1,10 @@
-#include "player.h"
+#include "include/player.h"
 
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-#include "character.h"
-#include "item.h"
+#include "include/character.h"
+#include "include/item.h"
 // Constructor, sets default player sprite and position
 Player::Player(std::string spriteLocation, int positionX, int positionY,
                int maxHealth, int currHealth, int damage, int currGold)

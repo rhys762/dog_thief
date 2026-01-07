@@ -1,4 +1,4 @@
-#include "animation.h"
+#include "include/animation.h"
 
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
@@ -8,10 +8,10 @@
 #include <iostream>
 #include <string>
 
-#include "character.h"
-#include "enemy.h"
-#include "entity.h"
-#include "player.h"
+#include "include/character.h"
+#include "include/enemy.h"
+#include "include/entity.h"
+#include "include/player.h"
 
 Animation::Animation() { selection = 0; }
 

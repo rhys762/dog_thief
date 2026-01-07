@@ -1,9 +1,9 @@
-#include "fighter.h"
+#include "include/fighter.h"
 
 #include <iostream>
 #include <string>
 
-#include "player.h"
+#include "include/player.h"
 Fighter::Fighter()
     : Player((std::string) "Sprites/halfling rogue/HalflingRogueIdleSide.gif",
              200, 200, 100, 100, 10, 0) {}
